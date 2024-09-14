@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#b39e87"
+    android:gravity="center"
+    tools:context=".Menu">
+
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matias Baeza"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Programación Android"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"/>
+
+    <!-- Botón RangoAleatorioDeNumeros -->
+    <Button
+        android:id="@+id/btn_rango_aleatorio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RangoAleatorioDeNumeros"/>
+
+    <!-- Botón Calculadora IMC -->
+    <Button
+        android:id="@+id/btn_calculadora_imc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora IMC"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingenieria en informatica"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="13/09/2024"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
+
+
